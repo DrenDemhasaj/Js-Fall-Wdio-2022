@@ -96,7 +96,7 @@
           * return-type: string
           */
          const currentTitle = await browser.getTitle();
-         const expectedTitle = 'Facebook -– log in or sign up';  
+         const expectedTitle = 'Facebook - log in or sign up';  
  
          expect(currentTitle, 'facebook.com does not have the expected title').to.equal(expectedTitle);
  
@@ -118,7 +118,7 @@
          console.log(windowHandle);
          console.log('\n windowHandle \n');
  
-         await browser.pause(2000);
+         await browser.pause(1000);
  
          /**
           * To go back in browser
@@ -126,7 +126,7 @@
           */
          await browser.back();
  
-         await browser.pause(2000);
+         await browser.pause(1000);
  
          /**
           * To go forward in browser
@@ -134,7 +134,7 @@
           */
          await browser.forward();  
          
-         await browser.pause(2000);
+         await browser.pause(1000);
  
          /**
           * To refresh a webpage
@@ -156,7 +156,7 @@
           */
          // 1. go back and forward
          await browser.back();
-         await browser.pause(2000);
+         await browser.pause(1000);
          await browser.forward();
  
          await browser.pause(1000);
