@@ -72,24 +72,6 @@ it('Verify custom-gender button is not selected on Sign up page', async () => {
     expect(isCostumGenderSelected, 'Costum gender is already selected').to.be.false;
 
 })
- 
-// it('If female gender is NOT selected, then click on female gender radio button', async () => {
-//      //go to facebook 
-//     await browser.url('/')
-//     //locate create new account button
-//     const createNewAccountButton = await $('=Create new account');
-//      //click create new account button
-//     createNewAccountButton.click();
-//     await browser.pause(4000)
-//     //locate the female radio button
-//      const femaleRadioButton = await $('input[value="1"]');
-//         const isFemaleGenderSelected = await femaleRadioButton.isSelected();
-//          // check if female-gender radio button is  not selected then click female radio button
-//         expect(isFemaleGenderSelected, femaleRadioButton.click()).to.be.false;
-        
-//         await browser.pause(4000)
-// })
-
 // 7. check if female radio button is selected then select FEMALE radio button and verify it
 it('Verify female-gender button is selected', async () => {
     //go to facebook
