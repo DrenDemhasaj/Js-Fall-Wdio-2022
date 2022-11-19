@@ -51,7 +51,6 @@
          await browser.pause(1000);
  
      });
- 
      it('Verify facebook url', async () => {
          
          /**
