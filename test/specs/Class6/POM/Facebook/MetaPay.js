@@ -33,17 +33,5 @@ async closeWindowsExceptMetaPay(){
     }
 }
 
-// async switchToMetaPay(){
-//     const allHandles = await browser.getWindowHandles();
-//     for (const handle of allHandles) {
-//         await browser.switchToWindow(handle);
-//         const title = await browser.getTitle();
-//         if (title.startsWith('Meta Pay:')) {
-//             await browser.switchToWindow(handle);
-//             break;
-//         }
-//     }
-// }
-
 }
 module.exports = MetaPay;
