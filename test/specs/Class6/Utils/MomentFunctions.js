@@ -5,8 +5,7 @@ class MomentFunctions{
 moment = new moment
 
  l_lFormat(){
-    return moment().format('ll')                   
-    
+    return moment().format('ll')
 }
 
 }
